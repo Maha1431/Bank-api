@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const Bank = require('./Models/Bank');
 
-const MONGO_URI = "mongodb://localhost:27017/test";
+const MONGO_URI = "mongodb+srv://mmahaece07:Maha1431@cluster0.iei1qfm.mongodb.net/";
 const PORT = process.env.PORT || 4000;
 
 const app = express();
