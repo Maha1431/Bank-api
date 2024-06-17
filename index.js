@@ -1,7 +1,7 @@
 // index.js
 const express = require('express');
 const mongoose = require('mongoose');
-const Bank = require('./models/Bank');
+const Bank = require('./Models/Bank');
 
 const MONGO_URI = "mongodb://localhost:27017/test";
 const PORT = process.env.PORT || 4000;
